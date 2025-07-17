@@ -1,0 +1,21 @@
+{
+  "name": "github-pages-webapp",
+  "version": "1.0.0",
+  "description": "A web application deployed on GitHub Pages.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "deploy": "gh-pages -d src",
+  },
+  "keywords": [
+    "github",
+    "pages",
+    "webapp"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "live-server": "^1.2.1"
+  }
+}

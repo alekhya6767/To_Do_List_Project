@@ -1,0 +1,13 @@
+{
+  "name": "to-do-list-project",
+  "version": "1.0.0",
+  "description": "A simple To-Do List application",
+  "homepage": "https://alekhya6767.github.io/To_Do_List_Project",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
