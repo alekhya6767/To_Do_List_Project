@@ -1,13 +1,20 @@
 {
-  "name": "to-do-list-project",
+  "name": "github-pages-webapp",
   "version": "1.0.0",
-  "description": "A simple To-Do List application",
-  "homepage": "https://alekhya6767.github.io/To_Do_List_Project",
+  "description": "A web application deployed on GitHub Pages.",
+  "main": "src/index.html",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d src"
   },
+  "keywords": [
+    "github",
+    "pages",
+    "webapp"
+  ],
+  "author": "Alekhya",
+  "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "live-server": "^1.2.1"
   }
 }
