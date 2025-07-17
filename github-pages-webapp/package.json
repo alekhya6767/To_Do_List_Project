@@ -4,7 +4,7 @@
   "description": "A web application deployed on GitHub Pages.",
   "main": "src/index.html",
   "scripts": {
-    "deploy": "gh-pages -d github-pages-webapp/src"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [
     "github",
