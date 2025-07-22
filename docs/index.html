@@ -24,6 +24,14 @@
 
         <form action="">
             <input type="text" id="taskInput" placeholder="Your Task">
+            <input type="datetime-local" id="dueTimeInput">
+  <!-- optional: choose how long before -->
+        <select id="reminderOffset">
+            <option value="600000">5 minutes before</option>
+            <option value="900000">15 minutes before</option>
+            <option value="1800000">30 minutes before</option>
+            <option value="3600000">1 hour before</option>
+        </select>
             <button id="newTask" type="submit">+</button>
         </form>
 
